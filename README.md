@@ -14,4 +14,8 @@ My mirror was implemented using p5js. To achieve a minimalist design, I started 
 Discussion of the advanced features:
 The advanced feature implemented in this mirror was draggable objects. By making the Drag_Rect class I was able to create a rectangle and give it a starting postition, a width, a heigth, and text, and by using certain functions the user can click on a widget and drag it across the screen and release it once the mouse button is no longer being held down. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aZQeN-CcyVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+https://user-images.githubusercontent.com/101754821/201981568-a25a70a1-116d-44d5-a8d6-7d05c1d8223a.mov
+
+

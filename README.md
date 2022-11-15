@@ -10,3 +10,8 @@ The sketch mostly reiterates my discussion of the design with a few additional d
 
 Discussion of the implementation:
 My mirror was implemented using p5js. To achieve a minimalist design, I started with only five icons on the bottom of the mirror so that the user could choose to use them or ignore them entirely. If the icon is clicked, the mirror would then display a widget with the pertinent information, and to close it the user would simply click the red close icon that would appear on the icon that was originally clicked. All widgets will have the ability to be dragged across the mirror by the user. Two classes were made: one for the close window icon so that I could place the same icon on several icons, and a drag rectangle class so that all widgets could be draggable. All icons are images and all widgets are rectangles. The draw function is mainly comprised of several if statements where if it is true that a specific icon has been clicked then the correct widget will be displayed. To check which icon is clicked, I created a function to check based on the given size and position arguments given.
+
+Discussion of the advanced features:
+The advanced feature implemented in this mirror was draggable objects. By making the Drag_Rect class I was able to create a rectangle and give it a starting postition, a width, a heigth, and text, and by using certain functions the user can click on a widget and drag it across the screen and release it once the mouse button is no longer being held down. 
+
+
